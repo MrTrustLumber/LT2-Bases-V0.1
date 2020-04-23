@@ -1,12 +1,6 @@
 loadstring(game:HttpGet(('https://pastebin.com/raw/Mmv71u1U'),true))()
 
-local PlayerName
- 
-for i,v in pairs(game.ReplicatedStorage:GetChildren()) do
-if v.ClassName == "Part" then
-PlayerName = v.Name
-end
-end
+local PlayerName = game.CoreGui.MTL_Gui.DataFolder.MTLBaseUser0.Text
 
 -- Script:
 local Tag
